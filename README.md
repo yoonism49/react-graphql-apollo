@@ -9,6 +9,7 @@ A simple React client with Apollo Client
 * Clone this repo
 * Run `npm install`
 * Start the app with `npm run dev`
+* Browse http://localhost:3002/
 
 ## Source Code
 
