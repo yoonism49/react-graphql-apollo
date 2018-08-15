@@ -1,0 +1,63 @@
+{
+  "name": "react-graphql-apollog",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon --watch ./server server.js && next",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "devDependencies": {
+    "nodemon": "1.x.x",
+    "babel-eslint": "^3.1.9",
+    "eslint-plugin-react": "^2.3.0"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.7",
+    "apollo-client": "^2.3.8",
+    "apollo-link-http": "^1.5.4",
+    "babel": "5.x.x",
+    "babel-core": "5.x.x",
+    "babel-loader": "^5.1.2",
+    "babel-runtime": "5.x.x",
+    "body-parser": "1.x.x",
+    "cors": "^2.8.4",
+    "graphql": "0.4.x",
+    "graphql-tag": "^2.9.2",
+    "json-loader": "^0.5.7",
+    "lokka": "1.x.x",
+    "lokka-transport-http": "1.x.x",
+    "react": "15.3.1",
+    "react-apollo": "^2.1.11",
+    "react-dom": "15.3.1",
+    "react-hot-loader": "^1.3.0",
+    "react-router-dom": "^4.3.1",
+    "underscore": "1.8.x",
+    "uuid": "^3.3.2",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2",
+    "next": "^5.0.0",
+    "next-apollo": "^2.0.0"
+  }
+}
